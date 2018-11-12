@@ -2,9 +2,11 @@ package com.example.jpademo.bo;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name="test")
+
+
+@Entity(name = "test")
 public class Test {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
